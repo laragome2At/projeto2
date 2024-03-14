@@ -1,14 +1,22 @@
+body{
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
 .logo{
     background-color: red;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 150px;
 }
 .Lista{
     list-style: none;
     display: flex;
     flex-direction: row;
     gap: 15px;
+    font-size: 17px; 
 }
 .Lista1{
      background-color: rgb(245, 238, 238);
@@ -17,6 +25,7 @@
 .Principal{
     background-color: white;
     width: 884px; border: solid 2px white;
+    height: 200px;
 }
 .Tudo{
     display: flex;
@@ -24,4 +33,6 @@
 .Menu{
     background-color: black;
     color: white;
+    height: 500px;
+    width: 220px;
 }

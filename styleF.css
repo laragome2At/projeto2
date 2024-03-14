@@ -1,0 +1,27 @@
+.logo{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Lista{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.Lista1{
+     background-color: rgb(245, 238, 238);
+     width: 100px;
+}
+.Principal{
+    background-color: white;
+    width: 884px; border: solid 2px white;
+}
+.Tudo{
+    display: flex;
+}
+.Menu{
+    background-color: black;
+    color: white;
+}

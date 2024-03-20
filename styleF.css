@@ -16,7 +16,7 @@ h1{
     display: flex;
     flex-direction: row;
     gap: 15px;
-    font-size: 17px; 
+    font-size: 19px; 
     margin: 10px;
 }
 .Lista1{
@@ -25,9 +25,12 @@ h1{
 }
 .Principal{
     background-color: white;
-    width: 884px; border: solid 2px white;
-    height: 200px;
+    width: 1400px; border: solid 2px white;
+    height: 300px;
     text-align: center;
+}
+h3{
+    font-size: 40px;
 }
 .Tudo{
     display: flex;
@@ -35,9 +38,12 @@ h1{
 .Menu{
     background-color: black;
     color: white;
-    height: 500px;
+    height: 790px;
     width: 230px;
     text-align:center;
+    border: solid 5px white;
+    margin: 0px;
+    border-left-width: 0px;
 }
 
 

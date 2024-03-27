@@ -3,9 +3,10 @@ body{
 }
 h1{
     font-size: 50px;
+    color: rgb(163, 83, 83);
 }
 .logo{
-    background-color: red;
+    background-color: rgb(59, 4, 4);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,15 +19,16 @@ h1{
     gap: 15px;
     font-size: 19px; 
     margin: 10px;
+    color: rgb(163, 83, 83);;
 }
 .Lista1{
-     background-color: rgb(245, 238, 238);
+     background-color: rgb(163, 83, 83);
      width: 100px;
 }
 .Principal{
-    background-color: white;
-    width: 1400px; border: solid 2px white;
-    height: 300px;
+    background-color:pink;
+    width: 1800px; border: solid 2px pink;
+    height: 1500px;
     text-align: center;
 }
 h3{
@@ -36,12 +38,12 @@ h3{
     display: flex;
 }
 .Menu{
-    background-color: black;
-    color: white;
-    height: 790px;
+    background-color: rgb(59, 4, 4);
+    color: rgb(163, 83, 83);
+    height: 1500px;
     width: 230px;
     text-align:center;
-    border: solid 5px white;
+    border: solid 5px pink;
     margin: 0px;
     border-left-width: 0px;
 }

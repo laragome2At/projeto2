@@ -1,24 +1,28 @@
 body{
-    background-color: black;
+    background-image: linear-gradient(rgb(87, 87, 87), black);
 }
 .caixa1{
-    background-image: linear-gradient(rgb(10, 10, 1), rgb(124, 124, 115));
+   background-color: rgb(97, 97, 97);
    width: 700px;
    height: 700px;
    display: flex;
    justify-content: center;
    align-items: center;
+   margin: 120px;
+   border: solid 1px goldenrod
 }
 .caixa2{
-    background-image: linear-gradient(rgb(175, 137, 10), rgb(218, 176, 88));
+    background-color: black;
     width: 500px;
     height: 500px;
     display: flex;
     justify-content: center;
    align-items: center;
+   flex-direction: column;
+   border: solid 5px goldenrod
 }
 input{
     height: 30px;
-    width: 150px;
+    width: 280px;
 }
 

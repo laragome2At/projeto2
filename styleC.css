@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(rgb(87, 87, 87), black);
+   background-color: black;
 }
 .caixa1{
    background-color: rgb(97, 97, 97);
@@ -12,17 +12,43 @@ body{
    border: solid 1px goldenrod
 }
 .caixa2{
-    background-color: black;
+    background-image: linear-gradient(rgb(87, 87, 87), black);
     width: 500px;
-    height: 500px;
+    height: 400px;
     display: flex;
     justify-content: center;
    align-items: center;
    flex-direction: column;
-   border: solid 5px goldenrod
+   border: solid 5px goldenrod;
+   border-radius: 10px;
 }
 input{
     height: 30px;
     width: 280px;
+    background-color: goldenrod;
+    border-radius: 10px;
+}
+.inputt{
+    height: 30px;
+    width: 280px;
+    background-color: goldenrod;
+}
+.botao{
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    color: white;
+}
+
+img{
+    position: absolute;
+    margin-bottom: 400px;
+    height: 170px;
+}
+p2{
+    position: fixed;
+    color: white;
+}
+p3{
+    color:white;
 }
 

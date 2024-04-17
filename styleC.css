@@ -42,13 +42,17 @@ input{
 img{
     position: absolute;
     margin-bottom: 400px;
-    height: 170px;
+    height: 150px;
 }
 p2{
-    position: fixed;
+ 
     color: white;
+    width: 8px;
+ 
 }
 p3{
     color:white;
 }
-
+input.check{
+     width: 15px;
+}
